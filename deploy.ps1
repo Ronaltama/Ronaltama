@@ -20,18 +20,17 @@ git add .
 
 Write-Host ""
 Write-Host "💾 Membuat commit..." -ForegroundColor Green
-git commit -m "✨ Add modern animated README with snake contribution graph
+git commit -m "Update README with modern design and snake animation
 
-- 🎨 Add wave header and footer animations
-- ⚡ Add multiple typing text animations
-- 🐍 Add snake animation eating GitHub contributions
-- 📊 Upgrade all statistics cards with Radical theme
-- 🏆 Add GitHub trophies display
-- 💻 Modernize tech stack section with animated icons
-- 🎯 Add profile summary cards
-- 💬 Add random dev quotes and jokes
-- 🌟 Add decorative GIFs throughout README
-- 📱 Responsive design for all devices"
+- Add professional wave header and footer
+- Add clean typing animations
+- Add snake contribution graph animation
+- Update color scheme to professional GitHub theme
+- Modernize tech stack display
+- Add comprehensive statistics cards
+- Add meaningful quote and clean design
+- Remove excessive emojis for professional look
+- Improve overall aesthetic and readability"
 
 Write-Host ""
 Write-Host "🚀 Pushing ke GitHub..." -ForegroundColor Green
@@ -53,9 +52,6 @@ Write-Host "6. 🎉 Refresh README untuk lihat animasi ular!" -ForegroundColor W
 Write-Host ""
 Write-Host "📖 Baca SETUP_GUIDE.md untuk detail lengkap" -ForegroundColor Yellow
 Write-Host ""
-Write-Host "🐍 Happy Coding! ✨" -ForegroundColor Magenta
-
-# Pause to see the output
-Write-Host ""
 Write-Host "Tekan tombol apa saja untuk keluar..." -ForegroundColor Gray
 $null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
+
